@@ -1,0 +1,8 @@
+# ignora os módulos do node
+node_modules
+# ignora os arquivos json
+json_files/*
+# faz com que a pasta base_files e os arquivos 
+# dentro dela não sejam ignorados
+!json_files/base_files
+!json_files/base_files/*
